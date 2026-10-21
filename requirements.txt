@@ -2,3 +2,6 @@ openai
 numpy
 python-dotenv
 streamlit
+
+# Only needed for scripts/data_pipeline/export_isaac.py
+pytypedstream

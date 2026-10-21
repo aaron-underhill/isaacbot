@@ -1,0 +1,20 @@
+{
+  "cases": 60,
+  "chat_model": "gpt-6-luna",
+  "embedding_model": "text-embedding-3-small",
+  "top_k_memories": 5,
+  "max_context_turns": 8,
+  "random_seed": 42,
+  "metrics": {
+    "mean_semantic_similarity": 0.29067550759230343,
+    "mean_real_word_count": 13.316666666666666,
+    "mean_bot_word_count": 15.583333333333334,
+    "mean_absolute_word_count_error": 11.933333333333334,
+    "empty_response_rate": 0.06666666666666667,
+    "emoji_presence_accuracy": 0.5333333333333333,
+    "question_presence_accuracy": 0.8,
+    "all_caps_accuracy": 0.7833333333333333,
+    "real_emoji_rate": 0.0,
+    "bot_emoji_rate": 0.4666666666666667
+  }
+}

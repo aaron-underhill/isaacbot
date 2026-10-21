@@ -1,0 +1,43 @@
+{
+  "random_seed": 42,
+  "strategy": "whole-session split, stratified by year; sessions used in behavioral_sample_v0.1 forced into train",
+  "fractions_requested": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "forced_train_session_count": 193,
+  "sessions": {
+    "train": 1543,
+    "validation": 194,
+    "test": 194
+  },
+  "windows": {
+    "train": 2519,
+    "validation": 212,
+    "test": 213
+  },
+  "years": {
+    "train": {
+      "2022": 151,
+      "2023": 261,
+      "2024": 406,
+      "2025": 444,
+      "2026": 281
+    },
+    "validation": {
+      "2022": 19,
+      "2023": 33,
+      "2024": 51,
+      "2025": 56,
+      "2026": 35
+    },
+    "test": {
+      "2022": 19,
+      "2023": 33,
+      "2024": 51,
+      "2025": 56,
+      "2026": 35
+    }
+  }
+}
