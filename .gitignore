@@ -1,0 +1,17 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Private data never belongs in this repository.
+# Only the synthetic files in data/sample/ are tracked.
+data/*
+!data/sample/
+data/sample/rag/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
